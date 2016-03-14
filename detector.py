@@ -1,3 +1,5 @@
+import numpy as np
+
 class Detector(object):
 
     def __init__(self):
@@ -7,4 +9,4 @@ class Detector(object):
     def detectar(self, senal):
 
         #TODO: Completar
-        pass
+        return np.random.normal(senal, 0.01, len(senal))
